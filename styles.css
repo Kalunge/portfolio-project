@@ -70,3 +70,11 @@
   padding-bottom: 20%;
   border-radius: 10%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
