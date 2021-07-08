@@ -78,3 +78,253 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.image {
+  position: static;
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0;
+}
+
+.projectdesc {
+  margin-top: 20%;
+}
+
+.projecttitle {
+  display: flex;
+  justify-content: flex-start;
+  position: static;
+  width: 295px;
+  height: 36px;
+  left: 0;
+  top: 0;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 1%;
+}
+
+.projectdetails {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  position: relative;
+  right: 10%;
+  margin-left: 15%;
+  width: 100%;
+}
+
+.projectdetails li {
+  margin-right: 10%;
+}
+
+.company {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  list-style: none;
+}
+
+.role {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style-type: disc;
+}
+
+.time {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  list-style-type: disc;
+}
+
+.paraggraph {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.tools {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  margin-right: 4%;
+}
+
+.tools li {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  background: #ebebff;
+  line-height: 16px;
+  margin-right: 2%;
+  padding: 2% 3% 2% 3%;
+  letter-spacing: 0.03em;
+  border-radius: 17%;
+  color: #6070ff;
+}
+
+.buttons {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 4%;
+  align-self: flex-start;
+  color: #396df2;
+  border-radius: 8%;
+  margin-left: 5%;
+  text-decoration: none;
+  border: 1px solid #6070ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.me {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.aboutdesc {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 0;
+}
+
+.counter {
+  background: #c1c7d0;
+}
+
+.resume-button {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  margin-top: 10%;
+}
+
+.languages {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.contact {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.about-me {
+  background-image: url('./img//contactme.png');
+}
+
+.language {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 7% 7% 7%;
+  margin-top: 2%;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.language-list {
+  margin-top: 7%;
+}
+
+.lists {
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.same {
+  display: flex;
+  padding: 3% 5%;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+
+.same img {
+  margin-right: 5%;
+}
