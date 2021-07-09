@@ -4,6 +4,9 @@
 > This is a Portfolio setup and mobile version  project by microverse to test the use of Flexbox for Positioning and also images and Background, 
 
 ![portfolio](img/portfolio.jpeg)
+![screepic](img/screepic.png)
+![projectimage](img/projectimage.png)
+![pics](img/pics.png)
 
 
 
@@ -58,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) licensed.
