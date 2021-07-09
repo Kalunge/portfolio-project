@@ -110,7 +110,8 @@ a:hover {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
-  margin-bottom: 1%;
+  margin-bottom: 7%;
+  margin-top: 1%;
 }
 
 .projectdetails {
@@ -211,7 +212,7 @@ a:hover {
   border: 1px solid #6070ff;
 }
 
-.container {
+.project {
   display: flex;
   flex-direction: column;
   align-items: center;
