@@ -331,34 +331,32 @@ a:hover {
   margin-right: 5%;
 }
 
-.contact {
+.contacts {
   background-image: url('./img/aboutbackground.svg');
-  /* background-color: purple; */
   background-repeat: no-repeat;
   display: block;
 }
 
 .contact-me {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 5%;
-  margin-top: 15%;
 }
 
-.contact p {
+.contacts p {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
   margin-top: 1%;
 }
 
@@ -374,25 +372,27 @@ label {
   margin-right: 5%;
 }
 
-input, textarea {
-  font-family: Poppins;
+input,
+textarea {
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
   line-height: 20px;
   width: 100%;
   padding: 15px 0 15px 16px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
+  margin-top: 2%;
 }
 
 .mail-input {
   margin-bottom: 5%;
 }
 
-.contact button {
+.contacts button {
   align-self: flex-start;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -401,7 +401,7 @@ input, textarea {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   border: none;
   border-radius: 8px;
   padding: 12px 16px;
