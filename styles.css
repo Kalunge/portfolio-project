@@ -330,3 +330,30 @@ a:hover {
 .same img {
   margin-right: 5%;
 }
+
+.contact-me {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact {
+  background-image: url('./img/aboutbackground.svg');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.contact p {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
+}
