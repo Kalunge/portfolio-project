@@ -357,3 +357,9 @@ a:hover {
   text-align: center;
   color: #EBEBFF;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
