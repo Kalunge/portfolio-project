@@ -205,6 +205,17 @@ a:hover {
   margin-left: 5%;
   text-decoration: none;
   border: 1px solid #6070ff;
+  transition: background-color 0.5s;
+}
+
+.buttons:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.buttons:focus {
+  background-color: #2230d2;
+  color: #fff;
 }
 
 .project {
@@ -415,12 +426,30 @@ textarea {
   background: #6070ff;
   color: #fff;
   border: 2px solid #1a2236;
+  animation-name: tremble;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-.contacts button:enabled {
-  background: #fff;
-  color: #6070ff;
-  border: 2px solid #1a2236;
+@keyframes tremble {
+
+  25% {
+    transform: rotate(15deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-15deg);
+  }
+  
+  100% {
+    transform: rotate(0deg);
+  }
+
 }
 
 .contacts button:disabled {
@@ -429,7 +458,7 @@ textarea {
   border: 2px solid #1a2236;
 }
 
-.contacts button:active {
+.contacts button:focus {
   background: #2230d2;
   color: #fff;
   border: 2px solid #1a2236;
