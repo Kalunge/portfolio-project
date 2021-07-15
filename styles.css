@@ -433,7 +433,6 @@ textarea {
 }
 
 @keyframes tremble {
-
   25% {
     transform: rotate(15deg);
   }
@@ -445,11 +444,10 @@ textarea {
   75% {
     transform: rotate(-15deg);
   }
-  
+
   100% {
     transform: rotate(0deg);
   }
-
 }
 
 .contacts button:disabled {
