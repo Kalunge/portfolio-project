@@ -2,7 +2,7 @@
 # My Portfolio
 
 ## Live demo link
-[GitHub](https://kalunge.github.io/portfolio-project/)
+[Kalunge.com](https://kalunge.github.io/portfolio-project/)
 
 ## Built With
 
