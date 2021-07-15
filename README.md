@@ -4,10 +4,8 @@
 > This is a Portfolio setup and mobile version  project by microverse to test the use of Flexbox for Positioning and also images and Background, 
 
 ![portfolio](img/portfolio.jpeg)
-![screepic](img/screepic.png)
-![projectimage](img/projectimage.png)
-![pics](img/pics.png)
-![formimage](img/formimage.png)
+
+![contactpage](https://user-images.githubusercontent.com/50773868/125694240-917e1186-b8eb-489a-96c5-9dc0ce93f0c1.png)
 
 
 
