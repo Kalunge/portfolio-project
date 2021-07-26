@@ -17,8 +17,12 @@ body {
   display: none;
   flex-direction: column;
   background: #6070ff;
-  width: 50%;
+  opacity: 95%;
+  width:92vw;
+  height: 100vh;
   padding-left: 4vw;
+  position: absolute;
+  top:0;
 }
 
 .mobile-menu div {
@@ -26,16 +30,22 @@ body {
   flex-direction: column;
 }
 
-.mobile-menu div p {
+.mobile-menu div a {
+  font-family: Poppins;
   font-weight: 600;
-  font-size: 2.4vw;
+  font-size: 5.4vw;
   line-height: 7vh;
   color: white;
+  text-decoration: none;
+  padding: 3vh;
+  margin: 0;
 }
 
 .close-item{
   color:white;
   align-self: flex-end;
+  padding-top:3vh;
+  padding-right: 1.5vw;
 }
 
 .title {
