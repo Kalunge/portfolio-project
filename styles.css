@@ -14,8 +14,7 @@ body {
 }
 
 .mobile-menu {
-  display: ;
-  display: flex;
+  display: none;
   flex-direction: column;
   background: #6070ff;
   width: 50%;
