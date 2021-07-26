@@ -25,7 +25,7 @@ body {
   top: 0;
 }
 
-.mobile-menu div {
+.menu-div {
   display: flex;
   flex-direction: column;
 }
@@ -518,10 +518,6 @@ small {
 }
 
 @media only screen and (min-width: 1000px) {
-  .mobile-menu {
-    display: none;
-  }
-
   .header-main {
     background-image: url('./img/headerback.svg');
     height: 900px;
@@ -668,6 +664,10 @@ small {
   }
 
   #menu {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 
