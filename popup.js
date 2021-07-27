@@ -79,70 +79,19 @@ projects.forEach((project) => {
             </div>
           </div>
          `;
-  // section.appendChild(div);
 });
 
-// const showPopUp = (project) => {
-//   const popUpSection = document.createElement('section');
-//   popUpSection.innerHTML = `
-//          <div>
-//           <h2>${project.title}<span class="material-icons"> close </span></h2>
-//           </div>
-//           <div>
-//           <ul>
-//               <li >${project.details[0]}</li>
-//               <li >${project.details[1]}</li>
-//               <li >${project.details[2]}</li>
-//             </ul>
-//           </div>
-//           <div>
-//             <img src=${project.image}>
-//           </div>
-//           <div>
-//             <p>${project.description}</p>
-//           </div>
-//           <div>
-//             <ul>
-//               <li >${project.technologyList[0]}</li>
-//               <li >${project.technologyList[1]}</li>
-//               <li >${project.technologyList[2]}</li>
-//             </ul>
-//           </div>
-//             <div>
-//             <button >${project.firstButton}</button>
-//             <button >${project.secondButton}</button>
-//             </div>
-//           </div>
-//     `;
-
-//   document.querySelector('body').appendChild(popUpSection);
-// };
-
 const seeProjectButtons = document.querySelectorAll('.showpopup');
-let project = projects[0];
 
-for (let i = 0; i < projects.length; i += 1) {
-  project = projects[i];
-}
-
-// seeProjectButtons.forEach((button) => {
-//   console.log(button.id);
-// });
-// projects.forEach((project) => {
-//   console.log(project.id);
-// });
-
-// for (let project of projects) {
-
-// }
 seeProjectButtons.forEach((button) => {
-  if (button.id === project.id) {
-    button.addEventListener('click', () => {
-      const popUpSection = document.createElement('section');
-      popUpSection.innerHTML = `
+  projects.map((project) => {
+    if (button.id === project.id) {
+      button.addEventListener('click', () => {
+        const popUpSection = document.createElement('section');
+        popUpSection.innerHTML = `
            <div>
             <h2>${project.title}</h2>
-            <span class="material-icons"> close </span>
+            <span class="material-icons close-popup"> close </span>
             </div>
             <div>
             <ul>
@@ -171,7 +120,12 @@ seeProjectButtons.forEach((button) => {
             </div>
       `;
 
-      document.querySelector('.project-container').appendChild(popUpSection);
-    });
-  }
+        section.appendChild(popUpSection);
+        const closeButton = document.querySelector('.close-popup');
+        closeButton.addEventListener('click', () => {
+          section.removeChild(popUpSection);
+        });
+      });
+    }
+  });
 });
