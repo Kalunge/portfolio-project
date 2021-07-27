@@ -12,6 +12,7 @@ body {
   margin: 2%;
   color: #6070ff;
 }
+
 /* here is the mobile menu */
 .mobile-menu {
   display: none;
@@ -56,21 +57,21 @@ a:hover {
   padding-right: 1.5vw;
 }
 
-/*here is the popup window */
+/* here is the popup window */
 .popup-container {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding: 0 3vw;
-  gap:2vh;
+  gap: 2vh;
   background-color: white;
   position: fixed;
-  z-index: 1; 
+  z-index: 1;
   left: 0;
   right: 0;
   top: 0;
-  width: 92vw; /* Full width */
-  height: 100vh; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 92vw;
+  height: 100vh;
+  overflow: auto;
 }
 
 .popup-header {
@@ -96,7 +97,7 @@ a:hover {
 }
 
 .popup-canopy span {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -105,12 +106,12 @@ a:hover {
 
 .popup-canopy li {
   padding-right: 8vw;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .popup-image {
@@ -118,28 +119,28 @@ a:hover {
 }
 
 .popup-image img {
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
 .popup-description {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin:0;
+  margin: 0;
 }
 
-.popup-technology{
+.popup-technology {
   display: flex;
 }
 
 .popup-technology span {
   list-style: none;
-  background-color: #EBEBFF;
-  color: #6070FF;
+  background-color: #ebebff;
+  color: #6070ff;
   padding: 1vh 2vw;
   margin-right: 1vw;
   border-radius: 0.5rem;
@@ -150,7 +151,7 @@ a:hover {
   justify-content: space-around;
 }
 
-.popup-button button{
+.popup-button button {
   background-color: white;
   padding: 2vh 9vw;
   border-radius: 1rem;
@@ -162,7 +163,7 @@ a:hover {
   padding-left: 2vw;
 }
 
-/********************************************************************************************8*/
+/********************************************************************************************  8 */
 .title {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -177,11 +178,6 @@ a:hover {
   margin: 0;
   position: relative;
   right: 10%;
-}
-
-li {
-  margin-top: 2%;
-  margin-bottom: 2%;
 }
 
 .icons li {
@@ -625,10 +621,14 @@ small {
 }
 
 @media only screen and (min-width: 1000px) {
-
   /* here is the popup-window section */
   .popup-container {
     padding: 0 3vw;
+  }
+
+  li {
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
   .popup-canopy li {
@@ -636,12 +636,14 @@ small {
   }
 
   .popup-image {
+    display: block;
     justify-content: center;
+    width: 80%;
+    height: 100%;
   }
 
   .popup-image img {
-    width:70%;
-    height: 7;
+    width: 70%;
     align-self: center;
   }
 
@@ -656,7 +658,7 @@ small {
   .destop-tech {
     display: flex;
     flex-direction: column;
-    gap:5vh;
+    gap: 5vh;
     padding-left: 3vw;
   }
 
@@ -664,8 +666,8 @@ small {
     display: flex;
     justify-content: space-around;
   }
-  
-  .popup-button button{
+
+  .popup-button button {
     padding: 1.5vh 3vw;
   }
 

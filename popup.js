@@ -84,7 +84,7 @@ projects.forEach((project) => {
 const seeProjectButtons = document.querySelectorAll('.showpopup');
 
 seeProjectButtons.forEach((button) => {
-  projects.map((project) => {
+  projects.forEach((project) => {
     if (button.id === project.id) {
       button.addEventListener('click', () => {
         const popUpSection = document.createElement('section');
