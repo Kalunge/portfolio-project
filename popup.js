@@ -89,35 +89,38 @@ seeProjectButtons.forEach((button) => {
       button.addEventListener('click', () => {
         const popUpSection = document.createElement('section');
         popUpSection.innerHTML = `
-           <div>
-            <h2>${project.title}</h2>
+           <article class="popup-container">
+            <div class="popup-header">
+            <h2 class="popup-h2">${project.title}</h2>
             <span class="material-icons close-popup"> close </span>
             </div>
-            <div>
-            <ul>
-                <li >${project.details[0]}</li>
+            <div class="popup-canopy">
+            <span >${project.details[0]}</span>
+            <ul class="popup-canopy">             
                 <li >${project.details[1]}</li>
                 <li >${project.details[2]}</li>
               </ul>
             </div>
-            <div>
+            <div class="popup-image">
               <img src=${project.image}>
             </div>
-            <div>
-              <p>${project.description}</p>
-            </div>
-            <div>
-              <ul>
-                <li >${project.technologyList[0]}</li>
-                <li >${project.technologyList[1]}</li>
-                <li >${project.technologyList[2]}</li>
-              </ul>
-            </div>
-              <div>
-              <button >${project.firstButton}</button>
-              <button >${project.secondButton}</button>
+            <div class="desktop-version">
+              <div class="popup-description">
+                <p>${project.description}</p>
               </div>
+              <div class="destop-tech">
+                <div class="popup-technology">
+                  <span >${project.technologyList[0]}</span>
+                  <span >${project.technologyList[1]}</span>
+                  <span >${project.technologyList[2]}</span>
+                </div>
+                <div class="popup-button">
+                  <button >${project.firstButton}<i class="fa fa-external-link"></i></button>
+                  <button >${project.secondButton}<i class="fa fa-github"></i></button>
+                </div>
+              <div>
             </div>
+            </article>
       `;
 
         section.appendChild(popUpSection);
