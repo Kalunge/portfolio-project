@@ -14,7 +14,7 @@ function validateEmail(email) {
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   if (!validateEmail(email)) {
-    message.innerText = 'Please provide a email in lower case';
+    message.innerText = '(*) Please provide a email in lower case';
   } else {
     form.submit();
   }
