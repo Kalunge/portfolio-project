@@ -164,6 +164,14 @@ a:hover {
 }
 
 /********************************************************************************************  8 */
+
+/* here is the form JS section */
+#small {
+  color: yellow;
+  background-color: red;
+}
+
+/**************************************************************************************   */
 .title {
   font-family: Poppins, sans-serif;
   font-style: normal;
