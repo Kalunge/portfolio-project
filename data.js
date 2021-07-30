@@ -2,7 +2,7 @@ const myForm = document.querySelector('form');
 
 myForm.addEventListener('keyup', (e) => {
   e.preventDefault();
-  const nameValue = document.getElementById('name').value;
+  const nameValue = document.getElementById('name');
   const emailValue = document.getElementById('email').value;
   const messageValue = document.getElementById('message').value;
 
